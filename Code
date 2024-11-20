@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=General+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        @media only screen and (max-width: 600px) {
+            .signature-container {
+                flex-direction: column;
+                align-items: flex-start !important;
+                max-width: 100% !important;
+                padding: 10px !important;
+            }
+            .profile-pic {
+                margin-right: 0 !important;
+                margin-bottom: 10px !important;
+                width: 100px !important;
+                height: 100px !important;
+            }
+            .name {
+                font-size: 1.5rem !important;
+                margin-bottom: 8px !important;
+            }
+            .professional-tags {
+                flex-wrap: wrap !important;
+                gap: 5px !important;
+                margin: 8px 0 !important;
+            }
+            .tag {
+                font-size: 0.6rem !important;
+                padding: 2px 8px !important;
+            }
+            .contact-info {
+                font-size: 0.9rem !important;
+                margin-top: 8px !important;
+            }
+            .social-icons {
+                gap: 5px !important;
+            }
+            .social-icon {
+                width: 20px !important;
+                height: 20px !important;
+            }
+        }
+        .signature-container {
+            font-family: 'General Sans', Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            max-width: 600px;
+            line-height: 1.4;
+            color: #101828;
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        .signature-details {
+            flex-grow: 1;
+        }
+        .name {
+            font-weight: 600;
+            font-size: 2.375rem;
+            color: #101828;
+            margin-bottom: 12px; /* Added padding below name */
+        }
+        .professional-tags {
+            display: flex;
+            gap: 10px;
+            margin: 12px 0; /* Added padding above and below tags */
+        }
+        .tag {
+            border: 1.75px solid #101828;
+            border-radius: 30rem;
+            padding: 4px 12px;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: #101828;
+            white-space: nowrap;
+        }
+        .contact-info {
+            color: rgba(29, 41, 57, 0.7);
+            font-weight: 500;
+            font-size: 1rem;
+            margin-top: 12px; /* Added padding above contact info */
+        }
+        .divider {
+            height: 1px;
+            background: rgba(29, 41, 57, 0.4);
+            margin: 10px 0;
+            width: 100%;
+        }
+        .social-icons {
+            display: flex;
+            gap: 10px;
+        }
+        .social-icon {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+    <table cellpadding="0" cellspacing="0" border="0" style="font-family: 'General Sans', Arial, sans-serif; max-width: 600px; width: 100%;">
+        <tr>
+            <td>
+                <div class="signature-container">
+                    <!-- Replace with your actual headshot image URL -->
+                    <img src="/api/placeholder/120/120" alt="Zoey Buck" class="profile-pic">
+                    
+                    <div class="signature-details">
+                        <div class="name">Zoey Buck</div>
+                        
+                        <div class="professional-tags">
+                            <span class="tag">Digital Designer</span>
+                            <span class="tag">UI/UX Designer</span>
+                            <span class="tag">Brand Designer</span>
+                            <span class="tag">Web Designer</span>
+                        </div>
+                        
+                        <div class="contact-info">
+                            228.304.1670<br>
+                            hello@zoeybuck.com
+                        </div>
+                        
+                        <div class="divider"></div>
+                        
+                        <div class="social-icons">
+                            <!-- Replace with actual social media icon URLs -->
+                            <a href="https://linkedin.com/in/zoeybuck">
+                                <img src="/api/placeholder/24/24" alt="LinkedIn" class="social-icon">
+                            </a>
+                            <a href="https://behance.net/zoeybuck">
+                                <img src="/api/placeholder/24/24" alt="Behance" class="social-icon">
+                            </a>
+                            <a href="https://dribbble.com/zoeybuck">
+                                <img src="/api/placeholder/24/24" alt="Dribbble" class="social-icon">
+                            </a>
+                            <a href="https://instagram.com/zoeybuck">
+                                <img src="/api/placeholder/24/24" alt="Instagram" class="social-icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
